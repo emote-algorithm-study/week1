@@ -28,7 +28,7 @@ int main()
 			cout << "NO" << endl;
 		}
 
-		
+		sum = 0;
 	}
 
 

@@ -36,7 +36,7 @@ int main()
 
 	int N;
 	unsigned int in;
-	unsigned long int rslt[10000];
+	unsigned long long int rslt[10000];
 
 
 	cin >> N;
@@ -72,7 +72,7 @@ char* dec2hex(unsigned int dec)
 		mod = dec % 16;
 		if (mod < 10)
 		{
-			h[position] = 48 + mod;
+			h[position] = 48 + mod; 
 		}
 		else
 		{
@@ -92,7 +92,7 @@ char* dec2hex(unsigned int dec)
 
 	for (i =0; i < HEX; i++)
 	{
-		h_inverse[i] = h[HEX - 1 - i];
+		h_inverse[i] = h[HEX - 1 - i]; // 
 	}
 	for (i = 0; i < HEX; i++)
 	{
